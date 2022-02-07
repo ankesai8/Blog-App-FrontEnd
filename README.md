@@ -1,3 +1,3 @@
 # Blog application using MERN stack:
 
-# deployed Link [click here](https://muthu-blog-application.netlify.app/)
+# [Click Here](https://simple-blog-8.netlify.app/)
