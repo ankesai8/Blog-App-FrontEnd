@@ -40,7 +40,7 @@ function Settings() {
       try {
         //image uploaded with new image,filename
         await axios.post(
-          `https://muthu-blog-server-api.herokuapp.com/api/upload/`,
+          `https://blog-app-08.herokuapp.com/api/upload/`,
           data
         );
       } catch (error) {
@@ -49,7 +49,7 @@ function Settings() {
     }
     try {
       const res = await axios.put(
-        `https://muthu-blog-server-api.herokuapp.com/api/users/${user._id}`,
+        `https://blog-app-08.herokuapp.com/api/users/${user._id}`,
         updatedUser
       );
       setSuccess(true);
